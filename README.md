@@ -1,7 +1,12 @@
-# stock-prediction-apps
+---
+title: Stock Prediction App
+emoji: 🌖
+colorFrom: purple
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.32.2
+app_file: app.py
+pinned: false
+---
 
-
-## Project Overview
-In this project, i develop a model to predict the next day's stock price using real-time data from Yahoo Finance. The model will be based on the GRU (Gated Recurrent Unit) architecture, which is a type of recurrent neural network (RNN) that is particularly well-suited for time-series data.
-
-**Model Deployment**: https://huggingface.co/spaces/rachman/Stock-Prediction-App
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
