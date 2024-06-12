@@ -15,7 +15,7 @@ def model_train (x_train, y_train):
   model.add(Dropout(0.1))
   model.add(Dense(units=1, activation='linear')) # Prediction of the next value
 
-  model.compile(optimizer='adam', loss='mape', metrics='mape')
+  model.compile(optimizer='adam', loss='mape', metrics=['mape'])
 
   model.build((None, 10, 1))  # Specify input shape
 
